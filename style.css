@@ -34,3 +34,37 @@ body {
     left: 170px;
     bottom: 170px;
 }
+
+.control-panel {
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    background-color: darkslateblue;
+
+    width: 400px;
+    height: 300px;
+    padding: 20px;
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.check-buttons {
+    display: flex;
+}
+
+.levers {
+    display: flex;
+    justify-content: space-evenly;
+    width: 400px;
+    height: 100px;
+}
+
+.levers input {
+    transform: rotate(270deg);
+    width: 100px;
+    height: 20px;
+    margin: 25px -25px 0;
+}

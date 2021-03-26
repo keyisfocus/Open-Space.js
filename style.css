@@ -30,9 +30,9 @@ body {
 .rocket {
     width: 100px;
     position: absolute;
-    transform: rotate(25deg);
-    left: 170px;
-    bottom: 170px;
+    transform: rotate(45deg);
+    left: 180px;
+    bottom: 160px;
 }
 
 .control-panel {

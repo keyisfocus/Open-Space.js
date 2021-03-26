@@ -22,21 +22,21 @@
             <input id="ok" type="button" value="OK" onclick="checkPassword()"/>
 
             <div class="check-buttons">
-                <input disabled class="disabled" type="button"/>
-                <input disabled class="disabled" type="button"/>
-                <input disabled class="disabled" type="button"/>
-                <input disabled class="disabled" type="button"/>
-                <input disabled class="disabled" type="button"/>
-                <input disabled class="disabled" type="button"/>
+                <input disabled class="disabled" onchange="checkLaunch()" type="checkbox"/>
+                <input disabled class="disabled" onchange="checkLaunch()" type="checkbox"/>
+                <input disabled class="disabled" onchange="checkLaunch()" type="checkbox"/>
+                <input disabled class="disabled" onchange="checkLaunch()" type="checkbox"/>
+                <input disabled class="disabled" onchange="checkLaunch()" type="checkbox"/>
+                <input disabled class="disabled" onchange="checkLaunch()" type="checkbox"/>
             </div>
             <div class="levers">
-                <input disabled class="disabled" type="range"/>
-                <input disabled class="disabled" type="range"/>
-                <input disabled class="disabled" type="range"/>
-                <input disabled class="disabled" type="range"/>
-                <input disabled class="disabled" type="range"/>
+                <input disabled class="disabled" onchange="checkLaunch()" type="range"/>
+                <input disabled class="disabled" onchange="checkLaunch()" type="range"/>
+                <input disabled class="disabled" onchange="checkLaunch()" type="range"/>
+                <input disabled class="disabled" onchange="checkLaunch()" type="range"/>
+                <input disabled class="disabled" onchange="checkLaunch()" type="range"/>
             </div>
-            <input disabled class="disabled" id="launch" type="button" value="Launch"/>
+            <input disabled id="launch" type="button" value="Launch" onclick="launch()"/>
         </div>
     </div>
 </div>

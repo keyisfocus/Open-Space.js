@@ -30,3 +30,7 @@
 
 2. All the inputs except the password field and the "ok" button should be enabled after the correct password (TrustNo1) has been entered.
 
+## Stage 5
+1. The launch button should be locked until all the checkboxes are checked and all the input ranges are set to maximum.
+
+2. When the user presses the launch button, the rocket should start moving.

@@ -1,14 +1,14 @@
 
-function _fu() {
-    let controlPanel = document.getElementsByClassName('control-panel');
-    let controlPanelInner = Array.from(controlPanel[0].children)[0]
+function checkPassword() {
+    let input = document.getElementById("pwField").value;
+    if (input === "TrustNo1") {
+        enableInputs();
+    }
+}
 
-    let body = document.getElementsByTagName("body")[0];
-    let space = body.children[0];
-
-
-    console.log(controlPanel[0].children.length);
-    console.log(controlPanelInner.children.length);
-    console.log(controlPanel[0].getElementsByTagName('input'));
-    console.log(controlPanel[0].getElementsByTagName('div'));
+function enableInputs() {
+    let disabledElements = document.getElementsByClassName("disabled");
+    for (let i = 0; i < disabledElements.length; i++) {
+        disabledElements[i].disabled = false;
+    }
 }

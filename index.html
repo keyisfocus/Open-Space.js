@@ -5,6 +5,8 @@
     <title>Open Space</title>
 
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
 </head>
 <body>
 <div class="space">
@@ -15,30 +17,28 @@
 
     <div class="control-panel">
         <div class="control-panel__inner">
-            <!--        <label>-->
-            <input type="password" placeholder="Enter password to unlock:"/>
-            <input id="ok" type="button" value="OK"/>
-            <!--        </label>-->
+
+            <input id="pwField" type="password" placeholder="Enter password to unlock:"/>
+            <input id="ok" type="button" value="OK" onclick="checkPassword()"/>
+
             <div class="check-buttons">
-                <input type="button"/>
-                <input type="button"/>
-                <input type="button"/>
-                <input type="button"/>
-                <input type="button"/>
-                <input type="button"/>
+                <input disabled class="disabled" type="button"/>
+                <input disabled class="disabled" type="button"/>
+                <input disabled class="disabled" type="button"/>
+                <input disabled class="disabled" type="button"/>
+                <input disabled class="disabled" type="button"/>
+                <input disabled class="disabled" type="button"/>
             </div>
             <div class="levers">
-                <input type="range"/>
-                <input type="range"/>
-                <input type="range"/>
-                <input type="range"/>
-                <input type="range"/>
+                <input disabled class="disabled" type="range"/>
+                <input disabled class="disabled" type="range"/>
+                <input disabled class="disabled" type="range"/>
+                <input disabled class="disabled" type="range"/>
+                <input disabled class="disabled" type="range"/>
             </div>
-            <input id="launch" type="button" value="Launch"/>
+            <input disabled class="disabled" id="launch" type="button" value="Launch"/>
         </div>
     </div>
-    <!--    <script src="script.js"></script>-->
-    <!--    <script>_fu()</script>-->
 </div>
 </body>
 </html>
